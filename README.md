@@ -1,40 +1,24 @@
 # Etch-a-Sketch Project
 
 ## Introduction
+This project is a browser-based version of an Etch-a-Sketch toy that allows users to draw on a grid of squares. The grid dynamically changes in size based on user input, and each square changes color randomly and darkens progressively with each interaction.
 
-This project is a browser-based version of an Etch-a-Sketch, allowing users to draw on a grid using DOM manipulation skills. The application features a flexible grid layout, hover effects for drawing, and the ability to customize the grid size.
-
-## Project Features
-
-- **Dynamic Grid Creation**: Generates a 16x16 grid of square divs using JavaScript.
-- **Flexbox Layout**: Utilizes Flexbox to display the grid without using CSS Grid.
-- **Hover Effects**: Changes the color of squares on mouse hover, creating a drawing effect.
-- **Custom Grid Size**: Users can input the number of squares per side, allowing for grid resizing.
-- **Responsive Design**: Maintains the total pixel area while changing the grid size.
+## Features
+- A 16x16 grid of square divs is created using JavaScript.
+- Each square changes color to a random RGB value when hovered over.
+- Squares darken progressively by 10% opacity with each hover until fully opaque after ten interactions.
+- Users can resize the grid to a maximum of 100 squares per side.
+- Built with HTML, CSS, and JavaScript.
 
 ## Getting Started
+1. Clone the repository or download the ZIP file.
+2. Open `index.html` in a web browser to start using the application.
+3. Click the "Resize Grid" button to enter the number of squares per side (1-100) and generate a new grid.
 
-### Prerequisites
-
-- Basic knowledge of HTML, CSS, and JavaScript.
-- A code editor (e.g., Visual Studio Code) installed on your computer.
-- A web browser for testing the application.
-
-### Installation
-
-1. **Clone the repository**:
-
-   ```bash
-   git clone https://github.com/SumantSagar73/etch-a-sketch.git
-   ```
-
-2. **Navigate to the project directory**:
-
-   ```bash
-   cd etch-a-sketch
-   ```
-
-3. **Open `index.html` in your web browser**.
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
 
 ### Project Structure
 
@@ -61,7 +45,12 @@ This project is a browser-based version of an Etch-a-Sketch, allowing users to d
 
 - This project was inspired by the classic Etch-a-Sketch toy and aims to practice DOM manipulation skills in JavaScript.
 
-## License
+## Live Preview
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
+You can view a live demo of the project [here](https://your-live-preview-link.com).
+
+## Extra Credit
+
+- Randomized RGB colors with each interaction.
+- Progressive darkening effect of squares based on user interaction.
+
