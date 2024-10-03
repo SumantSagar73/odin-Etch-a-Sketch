@@ -1,5 +1,3 @@
-
-```markdown
 # Etch-a-Sketch Project
 
 ## Introduction
