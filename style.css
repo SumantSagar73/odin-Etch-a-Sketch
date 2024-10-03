@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include borders and padding in width/height calculations */
+}
+
+.container {
+  width: 642px;
+  height: 64px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container div {
+  height: 40px;  /* Height of each box */
+  width: 40px;   /* Width of each box */
+  border: 0.5px solid black;
+  box-sizing: border-box; /* Ensure border is included within the box size */
+}
+
+
+.center-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Center vertically */
+  align-items: center;      /* Center horizontally */
+}
+
+.container {
+  width: 640px;  /* Ensure fixed width for the container */
+  height: 640px; /* Ensure fixed height for the container */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container div {
+  height: 40px;  /* Set the height of each square */
+  width: 40px;   /* Set the width of each square */
+  box-sizing: border-box;
+}
+
+#resizeBtn {
+  margin-bottom: 20px; /* Space between button and container */
+}
