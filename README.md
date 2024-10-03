@@ -47,7 +47,7 @@ This project is a browser-based version of an Etch-a-Sketch toy that allows user
 
 ## Live Preview
 
-You can view a live demo of the project [here](https://your-live-preview-link.com).
+You can view a live demo of the project [here](https://sumantsagar73.github.io/odin-Etch-a-Sketch/).
 
 ## Extra Credit
 
