@@ -1,4 +1,3 @@
-Here's a sample README file for your Etch-a-Sketch project that you can upload to GitHub:
 
 ```markdown
 # Etch-a-Sketch Project
